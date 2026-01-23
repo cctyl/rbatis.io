@@ -46,7 +46,7 @@ It is an ORM, a small compiler, a dynamic SQL languages
 
 ```toml
 #rbatis deps
-rbs = { version = "4.7"}
+rbs = { version = "4"}
 rbatis = { version = "4.7"}
 rbdc-sqlite = { version = "4.7" }
 #rbdc-mysql={version="4.7"}
