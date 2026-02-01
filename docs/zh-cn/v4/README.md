@@ -65,12 +65,12 @@
 
 ```toml
 #rbatis依赖
-rbs = { version = "4.6"}
-rbatis = { version = "4.6"}
-rbdc-sqlite = { version = "4.6" }
-#rbdc-mysql={version="4.6"}
-#rbdc-pg={version="4.6"}
-#rbdc-mssql={version="4.6"}
+rbs = { version = "4"}
+rbatis = { version = "4.7"}
+rbdc-sqlite = { version = "4.7" }
+#rbdc-mysql={version="4.7"}
+#rbdc-pg={version="4.7"}
+#rbdc-mssql={version="4.7"}
 
 serde = { version = "1", features = ["derive"] }
 tokio = { version = "1", features = ["full"] }
@@ -81,12 +81,12 @@ fast_log = "1.6"
 * `toml` `native-tls` (选项)
 
 ```toml
-rbs = { version = "4.6" }
-rbdc-sqlite = { version = "4.6", default-features = false, features = ["tls-native-tls"] }
-#rbdc-mysql={version="4.6", default-features = false, features = ["tls-native-tls"]}
-#rbdc-pg={version="4.6", default-features = false, features = ["tls-native-tls"]}
-#rbdc-mssql={version="4.6", default-features = false, features = ["tls-native-tls"]}
-rbatis = { version = "4.6" }
+rbs = { version = "4" }
+rbdc-sqlite = { version = "4.7", default-features = false, features = ["tls-native-tls"] }
+#rbdc-mysql={version="4.7", default-features = false, features = ["tls-native-tls"]}
+#rbdc-pg={version="4.7", default-features = false, features = ["tls-native-tls"]}
+#rbdc-mssql={version="4.7", default-features = false, features = ["tls-native-tls"]}
+rbatis = { version = "4.7" }
 
 serde = { version = "1", features = ["derive"] }
 tokio = { version = "1", features = ["full"] }
